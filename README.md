@@ -15,6 +15,7 @@ Using docker:
 - cd car-price-prediction-site
 - docker build -t car-price-prediction .
 - docker run -d -p 1250:8000 car-price-predictor
+
 Without docker:
 - git clone https://github.com/ITProger123/car-price-prediction-site.git
 - cd car-price-prediction-site
