@@ -9,7 +9,7 @@ A web application built with FastAPI to predict car prices based on machine lear
 - **Real-Time Validation**: Client-side validation for fields like milige and model year.
 - **Autocomplete**: Searchable dropdowns for brands, models, and colors.
 
-## Guide to run progect
+## Guide to run project
 Using docker:
 - git clone https://github.com/ITProger123/car-price-prediction-site.git
 - cd car-price-prediction-site
