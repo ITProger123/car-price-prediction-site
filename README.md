@@ -11,13 +11,11 @@ A web application built with FastAPI to predict car prices based on machine lear
 
 ## Guide to run project
 Using docker:
+
+- Install git and docker
 - git clone https://github.com/ITProger123/car-price-prediction-site.git
 - cd car-price-prediction-site
 - docker build -t car-price-prediction .
-- docker run -d -p 1250:8000 car-price-predictor
+- docker run -d -p 1250:8000 car-price-prediction
+- open http://localhost:1250/ in your browser
 
-Without docker:
-- git clone https://github.com/ITProger123/car-price-prediction-site.git
-- cd car-price-prediction-site
-- pip install -r requirements.txt
-- uvicorn main:app --host 0.0.0.0 --port 8000
